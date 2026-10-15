@@ -1,0 +1,9 @@
+# Local editor settings and generated packages
+.vscode/
+.idea/
+*.zip
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
