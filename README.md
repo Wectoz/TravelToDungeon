@@ -1,5 +1,7 @@
 # Travel to Dungeon
 
+> **Experimental / work in progress.** This is an unfinished test version, not a stable release. In-game testing is still required; bugs and client compatibility issues are expected.
+
 A leader-focused dungeon coordination addon targeting WoW Forever 1.60.1 (interface 16001). Version 0.2.0 replaces the initial prototype's incorrect 3.3.5 target with modern group APIs and backdrop support. Actual Forever client testing is still required.
 
 The board uses dark brown panels, bronze borders and buttons, and warm cream text inspired by Forever's UI. Status colors remain distinct for readability. No external artwork or UI addon is required.
@@ -72,3 +74,16 @@ Sources checked October 15, 2026. Beta builds may change interface versions and 
 When upgrading from WecMeetUp, remove the old addon folder before installing TravelToDungeon to avoid loading both addons. The renamed addon starts with fresh saved settings.
 
 The dungeon picker uses recommended beta level ranges, not access restrictions. Combined Scarlet Monastery and Dire Maul presets span their wings. Show all dungeons defaults off each login. The compact 420 x 500 window uses separate Dungeons and Party check-ins tabs and is inspired by Dungeon Finder; exact visual matching still needs an in-game comparison.
+
+## Feedback and contributions
+
+Bug reports and pull requests are welcome on [GitHub](https://github.com/Wectoz/TravelToDungeon/issues).
+Include your WoW client version, addon version, steps to reproduce, and any Lua
+error message. Remove personal information before posting logs or screenshots.
+
+## License
+
+The addon code is available under the [MIT License](LICENSE).
+World of Warcraft names, trademarks, and game assets belong to their respective
+owners. The license does not grant rights to those assets. This is an unofficial
+community addon and is not affiliated with or endorsed by Blizzard Entertainment.
